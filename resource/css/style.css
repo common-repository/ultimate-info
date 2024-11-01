@@ -1,0 +1,220 @@
+.uimain{
+	clear:both;border:none;width:99%;
+	direction:ltr;
+}
+#ultimate-info-title{
+		text-align:center !important;
+		border-bottom:1px solid rgba(0,127,255,0.2);
+		padding-bottom:10px !important;
+}
+div.ui{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+div.ui ul li {
+	width: 100%;
+	cursor:pointer !important;
+	display:inline; !important;
+	margin:0 auto  !important;
+	text-align: center !important;
+}
+div.ui ul li a{
+	text-align: center;
+	color: #fff;
+	background: #0073AA;
+	padding:20px !important;
+	font-weight:700 !important;
+	font-size:16px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	text-decoration: none;
+	transition:ease 500ms all;
+}
+div.ui ul li a:hover{
+background: rgba(0,115,170,.5);
+border-radius: 0;
+transition:ease 500ms all;
+}
+#server-items ul {
+	width: 100%;
+display: inline-flex;
+}
+#server-items ul li{
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	padding: 20px;
+	background: #0073AA;
+	border-radius: 10px;
+	margin: 5px;
+	color: #fff;
+	transition: all ease 300ms;
+}
+#server-items ul li:hover{
+	border-radius: 0;
+	background: rgba(0,115,170,.5);
+	transition: all ease 300ms;
+}
+#server-items ul li span{
+	text-align: center !important;
+	margin: 0 auto;
+	font-weight: 600;
+	cursor: pointer;
+	width: 100%;
+	padding: 2px;
+}
+.tab-title {
+	text-align:center;
+	font-size:17px !important;
+	font-weight:700 !important;
+	/*padding-bottom: 15px;
+	/*border-top: 1px dotted rgba(0,115,170,.5);*/
+}
+.tab-title span{
+		border-bottom:1px solid rgba(0,127,255,0.8);
+		padding-bottom:0px !important;
+		
+}
+#basic-informations{
+height:100%;
+}
+#info-1{
+	text-align:left !important; 
+}
+.key{
+	color:#4286f4;
+	text-decoration:none;
+	border:none !important; 
+}
+input.value{
+	width:100%;
+	padding:10px;
+	font-size:17px !important; 
+	font-weight:600;
+	color:#4341f4;
+	border:none;
+	background-color:rgba(231, 242, 254,.5);
+}
+div#accordion h3{
+	padding:15px;
+	margin-top:15px;
+}
+span.ui-icon{border:none;}
+span.ui-icon-triangle-1-e:hover{color:#4341f4 !important; }
+.file-list{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clear:both;
+}
+
+.file-list li {
+  display:block;
+  float:left;
+}
+
+.file-list li a {
+  display: block;
+  color: #4341f4;
+  text-align: center;
+  padding: 2px 2px;
+  text-decoration: none;
+  border-bottom:1px solid grey;
+}
+.input-fread{
+	font-weight:400;padding:15px;
+}
+.submit-btn{
+	padding:10px;font-weight:500;background-color:#4CAF50;color:#fff;cursor:pointer;
+}
+.phpini{
+	font-weight:500;
+	text-align:left;
+}
+.phpini-1{
+	float:left;
+	margin:0 auto;
+	width:46%;
+	height:350px !important;
+	overflow:scroll;
+	background-color:rgba(66,134,244,1);
+	color:#fff;
+	padding:10px;
+}
+#phple{
+font-weight:500;
+text-align:left;
+}
+#phple h3{
+	text-align: center;
+}
+table#phple thead,tbody td{
+width: 50%
+}
+table#phple thead tr td{
+background-color:#4CAF50;
+padding: 10px;
+text-align: center;
+color: #fff;
+font-weight: 700
+}
+table#phple tbody tr td{
+background-color:#FF7471;
+padding: 10px;
+text-align: center;
+color: #fff;
+}
+#wordpress{
+font-weight:500;
+text-align:left;
+direction:ltr;
+line-height:210%;
+}
+#wordpress span.prop{
+	color:#007FFF;
+	text-decoration:none;border:0;
+}
+#wordpress span.val{
+	color:#00822F !important;
+	text-decoration:none;border:0;direction:ltr;
+}
+.bgspan{
+padding:5px 5px !important;background-color:#00822F !important;color:#fff;border:none !important;	
+}
+h2.h2ps{padding:0 !important;margin:0 !important;color:#045789;}
+#aplink{color:#007FFF;text-decoration:none;pointer:pointer;}
+/*table tr td{border:1px solid #ccc;}*/
+table#wpuser tr td{border:1px solid #ccc;}
+table#wpuser tr td{padding:3px; overflow:scroll;width:auto;text-align:center;}
+.wpuser-td-title{font-weight:700;color:#5D7FFF;}
+.user-value{color:green !important;}
+#wp-config-txt{width:95%;height:300px;overflow:scroll}
+#about{
+	direction: ltr;
+	background: #F1F1F1;
+	z-index: 1000 !important ;
+}
+#about p{
+	font-size:12pt;
+		background: #F1F1F1;
+	padding: 15px;
+}
+#about a{color:#007FFF;text-decoration:none;}
+#about-img{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.attention{
+	color:red;
+	font-weight:700;
+	
+}
+#wpfooter{
+	position:relative !important;
+}
+/*  End CSS */
+
